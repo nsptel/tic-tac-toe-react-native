@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "tic-tac-toe",
+    "slug": "tic-tac-toe",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-updated.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.smallfungames.tictactoe",
+      "buildNumber": "0.9",
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.smallfungames.tictactoe",
+      "versionCode": 1
+    }
+  }
+}
