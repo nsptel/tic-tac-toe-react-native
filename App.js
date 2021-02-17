@@ -12,7 +12,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <GameBoard style="" />
+        <GameBoard style="Error" />
       </View>
     )
   }
